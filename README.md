@@ -53,7 +53,7 @@ python train_net.py --num-gpus 1 --config-file configs/ade20k/maskformer2_R50_bs
 
 ## Citation
 
-If you find this work helpful, please consider cite MaskCLIP use the following BibTeX entry.
+If you find this work helpful, please consider citing MaskCLIP using the following BibTeX entry.
 
 ```BibTeX
 @inproceedings{ding2023maskclip,
