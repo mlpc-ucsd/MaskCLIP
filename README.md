@@ -1,6 +1,6 @@
 # Open-Vocabulary Universal Image Segmentation with MaskCLIP (ICML 2023)
 
-[Zheng Ding](), [Jieke Wang](), [Zhuowen Tu](http://www.cogsci.ucsd.edu/~ztu/)
+[Zheng Ding](mailto:zhding@ucsd.edu), [Jieke Wang](), [Zhuowen Tu](http://www.cogsci.ucsd.edu/~ztu/)
 
 [Arxiv](https://arxiv.org/abs/2208.08984) / [Project](https://maskclip.github.io) / [Video](https://youtu.be/nW0GYkLtka8)
 
@@ -17,7 +17,7 @@ Please follow the following codes to set up the environment.
 ```
 conda create -n maskclip python=3.9
 conda activate maskclip
-conda install pytorch=1.10 cudatoolkit=11.3 torchvision=0.11 numpy=1.21.5 -c pytorch -c conda-forge
+conda install pytorch=1.10 cudatoolkit=11.3 torchvision=0.11 -c pytorch -c conda-forge
 python -m pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu113/torch1.10/index.html
 pip install setuptools==59.5.0
 pip install timm opencv-python scipy einops
