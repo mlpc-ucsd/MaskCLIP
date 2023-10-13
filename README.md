@@ -50,7 +50,6 @@ You can test our model on ADE20K dataset to get the results using the trained mo
 python train_net.py --num-gpus 1 --config-file configs/ade20k/maskformer2_R50_bs16_160k.yaml --eval-only
 ``` 
 
-
 ## Citation
 
 If you find this work helpful, please consider citing MaskCLIP using the following BibTeX entry.
@@ -63,6 +62,8 @@ If you find this work helpful, please consider citing MaskCLIP using the followi
   year      = {2023},
 }
 ```
+
+Please also checkout [MasQCLIP](https://github.com/mlpc-ucsd/MasQCLIP) for out lastest work on open-vocabulary segmentation.
 
 
 ## Acknowledgement
