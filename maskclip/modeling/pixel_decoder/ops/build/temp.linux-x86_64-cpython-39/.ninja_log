@@ -1,0 +1,4 @@
+# ninja log v5
+0	4002	1667684389800053600	/mnt/sdd/OVS_experiments/maskclip/train_bkb/mask2former/modeling/pixel_decoder/ops/build/temp.linux-x86_64-cpython-39/mnt/sdd/OVS_experiments/maskclip/train_bkb/mask2former/modeling/pixel_decoder/ops/src/cpu/ms_deform_attn_cpu.o	ac6e50dfe84bd228
+1	15343	1667684401133586400	/mnt/sdd/OVS_experiments/maskclip/train_bkb/mask2former/modeling/pixel_decoder/ops/build/temp.linux-x86_64-cpython-39/mnt/sdd/OVS_experiments/maskclip/train_bkb/mask2former/modeling/pixel_decoder/ops/src/cuda/ms_deform_attn_cuda.o	9e82a791e0d9cf33
+1	17080	1667684402877534800	/mnt/sdd/OVS_experiments/maskclip/train_bkb/mask2former/modeling/pixel_decoder/ops/build/temp.linux-x86_64-cpython-39/mnt/sdd/OVS_experiments/maskclip/train_bkb/mask2former/modeling/pixel_decoder/ops/src/vision.o	e98aff91c8aeab85
