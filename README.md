@@ -63,7 +63,7 @@ If you find this work helpful, please consider citing MaskCLIP using the followi
 }
 ```
 
-Please also checkout [MasQCLIP](https://github.com/mlpc-ucsd/MasQCLIP) for out lastest work on open-vocabulary segmentation.
+Please also checkout [MasQCLIP](https://github.com/mlpc-ucsd/MasQCLIP) for our lastest work on open-vocabulary segmentation.
 
 
 ## Acknowledgement
