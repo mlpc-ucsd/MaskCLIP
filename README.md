@@ -44,10 +44,10 @@ python train_net.py --num-gpus 8 --config-file configs/coco/maskformer2_R50_bs16
 
 ### Testing MaskCLIP on ADE20K dataset
 
-You can test our model on ADE20K dataset to get the results using the trained model. We also provide our trained model [here](https://drive.google.com/file/d/1fzf4y-l-BwhBkxambk_yS4yrCwHOKij7/view?usp=sharing). You need to change the path of `MODEL.WEIGHTS` in the yaml file.
+You can test our model on ADE20K dataset to get the results using the trained model. We also provide our trained model [here](https://drive.google.com/file/d/1fzf4y-l-BwhBkxambk_yS4yrCwHOKij7/view?usp=sharing). You need to change the path of `MODEL.WEIGHTS` in the yaml file or add to the line
 
 ```
-python train_net.py --num-gpus 1 --config-file configs/ade20k/maskformer2_R50_bs16_160k.yaml --eval-only
+python train_net.py --num-gpus 1 --config-file configs/ade20k/maskformer2_R50_bs16_160k.yaml --eval-only MODEL.WEIGHTS model_final.pth
 ``` 
 
 ## Citation
