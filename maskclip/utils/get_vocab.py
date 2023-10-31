@@ -15,5 +15,6 @@ def get_class_names(dataset_name: str):
     else:
         raise NotImplementedError(f"Unknown dataset: {dataset_name}")
 
-    class_names.append('other')
+    if 'train' in dataset_name:
+        class_names.append('other')
     return class_names
