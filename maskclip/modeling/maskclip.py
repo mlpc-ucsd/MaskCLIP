@@ -207,17 +207,6 @@ class MaskCLIP(nn.Module):
         clip_, _ = clip.load(clip_model_name, device='cpu')
         self.visual.load_state_dict(clip_.visual.state_dict(), strict=False)
 
-        # For COCO training
-        # class_names = [x['name'] for x in COCO_CATEGORIES]
-        # class_names.append('other')
-
-        # For ADE20K testing
-        # class_names = [x['name'] for x in ADE20K_150_CATEGORIES]
-        # class_names.append('other')
-
-        # self.txt_embed = clip_.encode_text(clip.tokenize(class_names)).float().detach()
-        # self.txt_embed = self.txt_embed / self.txt_embed.norm(dim=-1, keepdim=True)
-
         del clip_
 
     def forward(self, x, masks, txt_embed):
